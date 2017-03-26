@@ -11,5 +11,6 @@ $(LINK_TARGET):	$(OBJS)
 	gcc -c $<
 
 REBUILDLABLES= $(LINK_TARGET) $(OBJS)
+
 clean:
 	rm $(REBUILDLABLES)
