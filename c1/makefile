@@ -3,7 +3,6 @@ OBJS = hello.o
 
 all:	$(LINK_TARGET)
 
-
 $(LINK_TARGET):	$(OBJS)
 	gcc -o $@ $<
 
