@@ -1,0 +1,8 @@
+
+*.exe
+
+# ignore binary/compiled files
+*.[oa]
+
+# ignore temporary files
+*~
